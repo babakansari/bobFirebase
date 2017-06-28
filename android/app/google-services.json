@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "555988454038",
+    "firebase_url": "https://bob-fcm-push-notification.firebaseio.com",
+    "project_id": "bob-fcm-push-notification",
+    "storage_bucket": "bob-fcm-push-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555988454038:android:964655f35978e83b",
+        "android_client_info": {
+          "package_name": "com.bobFirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555988454038-lfu0tujdnldi78shtctonujn587db5h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQV2gwf2A1Y4ewFfBe2w5OOlG3AJRWoU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
