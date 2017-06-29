@@ -16,7 +16,13 @@ import App from "./app/App";
 export default class bobFirebase extends Component {
   render() {
     return (
-      <App />
+      <View style={styles.container}>
+        <Text>
+            Bob Test CLient-Side Push Notification
+        </Text>
+        <App/>
+      </View>
+      
     );
   }
 }
