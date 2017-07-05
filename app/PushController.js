@@ -30,7 +30,10 @@ export default class PushController extends Component {
     });
 
     this.notificationListner = FCM.on(FCMEvent.Notification, notif => {
-      console.log("Notification", notif);
+      console.log("notif", notif);
+      //console.log("notif.title", notif.fcm.title);
+      //console.log("notif.body", notif.fcm.body);
+             
       if(notif.local_notification){
         return;
       }
@@ -55,6 +58,15 @@ export default class PushController extends Component {
                   break;
               }
       }
+
+FCM.presentLocalNotification({
+        vibrate: 100,
+        title: notif.fcm.title,
+        body: notif.fcm.body,
+        priority: "high",
+        show_in_foreground: true,
+        picture: 'https://firebase.google.com/_static/af7ae4b3fc/images/firebase/lockup.png'
+      });
 
       this.refreshTokenListener = FCM.on(FCMEvent.RefreshToken, token => {
         console.log("TOKEN (refreshUnsubscribe)", token);

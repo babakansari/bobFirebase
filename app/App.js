@@ -69,7 +69,7 @@ export default class App extends Component {
           onChangeToken={token => this.setState({token: token || ""})}
         />
         <Text style={styles.welcome}>
-          Welcome to Simple Fcm Client!
+          Welcome to Bob Fcm Client!
         </Text>
 
         <Text>

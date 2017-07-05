@@ -4,4 +4,4 @@ http://localhost:8081/index.android.bundle
 
 Make sure your pakage name in mainifests file same as your gradle's applicationId.
 
-https://firebase.google.com/docs/cloud-messaging/http-server-ref
+https://console.firebase.google.com/project/bob-fcm-push-notification/notification
